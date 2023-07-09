@@ -1,0 +1,119 @@
+.main{ box-sizing: border-box;}
+.wrappers{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 30px;
+  
+  }
+
+.wrappers .card_mushroom{
+  background-color: #D2BDE8;
+  width: 30%;
+  height: 120px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  padding: 15px;
+  color: #222;
+  border-radius: 20px;
+}
+.wrappers .card_animals{
+    text-decoration: none;
+    background-color: #FFDFAE;
+    width: 30%;
+    height: 120px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    padding: 15px;
+    color: #222;
+    border-radius: 20px;
+  }
+  .wrappers .card_plants{
+    background-color: #BDDC96;
+    width: 30%;
+    height: 120px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    padding: 15px;
+    color: #222;
+    border-radius: 20px;
+  }
+  .wrappers .card_bacteria{
+    background-color: #31D6FC;
+    width: 30%;
+    height: 120px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    padding: 15px;
+    color: #222;
+    border-radius: 20px;
+  }
+.wrappers h4{
+  text-transform: capitalize;
+}
+
+form {
+  position: relative;
+  width: 500px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  }
+input {
+  width: 500px;
+  height: 70px;
+  padding-left: 10px;
+  border: 2px solid #7BA7AB;
+  border-radius: 12px;
+  outline: none;
+  background: #F9F0DA;
+  color: #9E9C9C;
+  }
+  input::placeholder {
+   
+    font-size: 1.6em;
+    font-style: italic;
+    display: inline;
+  }
+
+
+  /* width */
+::-webkit-scrollbar {
+    width: 13px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(3, 212, 66);
+    border-radius: 10px;
+  }
+
+.categories {
+    margin: 0 auto;
+    
+}
+
+.categories div{
+    
+    position: relative;
+    display: inline-block;
+    background-color: #efe6e6;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin-bottom: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+    
+    border: 1px solid transparent;
+    transition: all 500ms ease;
+  }
+  .categories div:hover{
+    background-color: silver;
+    transform: scale(1.2);
+
+  }
